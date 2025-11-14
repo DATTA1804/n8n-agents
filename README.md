@@ -6,6 +6,8 @@ Whenever a Gmail thread contains a specific label (your "trigger label"), the wo
 ---
 
 
+
+
 ### 📌 Features
 
 ⏱ Automated Trigger Every 1 Minute
