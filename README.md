@@ -70,3 +70,33 @@ Sends email content to your configured Assistant.
 Ensures Gmail receives clean HTML content.
 
 ---
+
+## 🛠 Tech Stack
+
+Component	Purpose
+
+n8n	Workflow automation and orchestration
+
+Gmail API	Retrieve emails, insert drafts, and manage labels
+
+OpenAI Assistant API	Generate intelligent, context-aware email replies
+
+JavaScript Code Node	Base64 encoding and dynamic field handling
+
+Markdown → HTML Converter Node	Makes OpenAI responses email-friendly
+
+HTTP Request Node	Sends Gmail drafts.create API call
+
+---
+
+## 📌 Prerequisites
+
+You must configure:
+
+Gmail OAuth2 credentials (GCP)
+
+OpenAI Assistant ID
+
+Gmail label to monitor (e.g., AI_Reply, autodraft)
+
+Permissions for drafts and labels in Gmail API
