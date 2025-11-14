@@ -103,3 +103,33 @@ OpenAI Assistant ID
 Gmail label to monitor (e.g., AI_Reply, autodraft)
 
 Permissions for drafts and labels in Gmail API
+
+
+---
+
+## ▶️ How It Works (Simple Flow)
+
+Label an email thread with your chosen AI label
+
+Wait for the next 1-minute run
+
+Workflow reads the latest message
+
+OpenAI writes a reply
+
+Reply is formatted + encoded
+
+A Gmail draft is created inside the same thread
+
+Label is removed
+
+You're notified automatically in Gmail with the new draft
+
+
+---
+
+## 🔚 Conclusion
+
+This workflow provides a seamless, hands-off system for generating professional Gmail reply drafts using n8n and OpenAI. By automatically detecting labeled email threads, drafting intelligent responses, formatting them into valid Gmail-ready HTML, and inserting them back as drafts, it removes repetitive email work and boosts productivity.
+
+Whether you're handling customer support, sales inquiries, or personal communication, this automation ensures consistent, high-quality replies with minimal effort—letting you focus on the work that truly matters.
