@@ -5,8 +5,9 @@ Whenever a Gmail thread contains a specific label (your "trigger label"), the wo
 
 ---
 
+![image alt](https://github.com/DATTA1804/n8n-agents/blob/d42a309343263df766415657d1bccded41e34aec/Screenshot%202025-11-14%20190646.png)
 
-
+---
 
 ### 📌 Features
 
